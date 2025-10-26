@@ -1,0 +1,48 @@
+Array queue test
+[Step 1] Empty queue created.
+Is the queue empty? Yes
+Front: Front error: front: error, queue is empty, cannot access the front
+Back: Back error: back: error, queue is empty, cannot access the back
+
+[Step 2] Enqueue a single value (-10)
+Queue length: 1
+Front: -10 | Back: -10
+
+[Step 3] Removing one element...
+Queue length: 0
+Is empty? Yes
+
+[Step 4] Enqueue 10 values (0–9)
+Queue length: 10
+Front: 0 | Back: 9
+
+[Step 5] Creating queueCopy via copy constructor...
+queueCopy length: 10
+queueCopy Front: 0 | Back: 9
+
+[Step 6] Printing and clearing original queue...
+Original queue elements: 0 1 2 3 4 5 6 7 8 9 
+Original queue is empty? Yes
+
+[Step 7] Creating queueAssigned and assigning from queueCopy...
+queueAssigned length: 10
+Front: 0 | Back: 9
+
+[Step 8] Clearing queueCopy...
+queueCopy is empty? Yes
+
+[Step 9] Checking that queueAssigned still has data:
+queueAssigned length: 10
+queueAssigned front: 0 | back: 9
+
+[Step 10] Random enqueue/dequeue simulation (5 random ops)
+Dequeued 0
+Enqueued 55 | Length: 10
+Dequeued 1
+Enqueued 3 | Length: 10
+Enqueued 88 | Length: 11
+
+Final queueAssigned length: 11
+Front: 2 | Back: 88
+
+ Test done
